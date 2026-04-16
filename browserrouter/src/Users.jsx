@@ -5,8 +5,8 @@ function Users() {
 
   const users = [
     { id: "1", name: "Manish" },
-    { id: "2", name: "Rahul" },
-    { id: "3", name: "Amit" }
+    { id: "2", name: "Manraj" },
+    { id: "3", name: "Praveen" }
   ];
 
   return (
@@ -19,7 +19,7 @@ function Users() {
           {users.map((user) => (
             <div
               key={user.id}
-              onClick={() => navigate(`/user/${user.id}`)} // 🔥 IMPORTANT
+              onClick={() => navigate(`/user/${user.id}`)}
               className="bg-gray-100 p-3 rounded-lg cursor-pointer hover:bg-blue-100"
             >
               {user.name}
@@ -27,12 +27,11 @@ function Users() {
           ))}
         </div>
 
-        {/* Back */}
         <button
           onClick={() => navigate(-1)}
           className="mt-5 bg-gray-500 text-white px-4 py-2 rounded"
         >
-          ⬅ Back
+         Back
         </button>
 
       </div>

@@ -1,11 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./layout";
-import Home from "./home";
-import AboutUs from "./Aboutus";
-import ContactUs from "./Contactus";
+import Home from "./Home";
+import AboutUs from "./AboutUs";
+import ContactUs from "./ContactUs";
 import Login from "./Login";
 import Signup from "./SignUp";
-import User from "./Users";
 import Users from "./Users";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
           <Route path="contact-us" element={<ContactUs />} />
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
-          <Route path="user/:id" element={<User />} />
           <Route path="users" element={<Users />} />
         </Route>
       </Routes>
