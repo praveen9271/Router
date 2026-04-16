@@ -21,22 +21,6 @@ function Navbar() {
           Contact
         </NavLink>
       </div>
-
-      <div className="flex items-center gap-2 ml-auto">
-        <NavLink
-          to="/login"
-          className="border border-yellow-400 text-yellow-400 px-4 py-1 rounded hover:bg-yellow-400 hover:text-black transition"
-        >
-          Login
-        </NavLink>
-
-        <NavLink
-          to="/signup"
-          className="border border-yellow-400 text-yellow-400 px-4 py-1 rounded hover:bg-yellow-400 hover:text-black transition"
-        >
-          Sign Up
-        </NavLink>
-      </div>
     </nav>
   );
 }

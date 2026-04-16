@@ -11,7 +11,7 @@ function Home() {
         </p>
 
         <div className="space-y-3 mb-5">
-          <div className="bg-orange-100 p-3 rounded-lg">React is a JavaScript library used to build user interfaces, especially for single-page applications. It is based on components, which are reusable pieces of UI. JSX allows writing HTML-like code inside JavaScript. Props are used to pass data between components, while state manages dynamic data within a .</div>
+          <div className="bg-orange-100 p-3 rounded-lg">React is a JavaScript library used to build user interfaces, especially for single-page applications. It is based on components, which are reusable pieces of UI. JSX allows writing HTML-like code inside JavaScript. .</div>
         </div>
 
         <NavLink
@@ -21,12 +21,12 @@ function Home() {
           View Users
         </NavLink>
 
-        <NavLink
-          to="/login"
+        {/* <NavLink
+          to="/"
           className="inline-block bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600"
         >
           Get Started
-        </NavLink>
+        </NavLink> */}
       </div>
     </div>
   );

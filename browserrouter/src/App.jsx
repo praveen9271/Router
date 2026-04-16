@@ -3,8 +3,6 @@ import Layout from "./layout";
 import Home from "./Home";
 import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
-import Login from "./Login";
-import Signup from "./SignUp";
 import Users from "./Users";
 
 function App() {
@@ -15,8 +13,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about-us" element={<AboutUs />} />
           <Route path="contact-us" element={<ContactUs />} />
-          <Route path="login" element={<Login />} />
-          <Route path="signup" element={<Signup />} />
           <Route path="users" element={<Users />} />
         </Route>
       </Routes>

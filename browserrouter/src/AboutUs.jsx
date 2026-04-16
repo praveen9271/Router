@@ -9,28 +9,11 @@ function AboutUs() {
           Our goal is to create fast, responsive, and user-friendly interfaces.
         </p>
 
-        <div className="space-y-3">
-          <div className="bg-gray-100 p-3 rounded-lg">
-            <h3 className="font-semibold text-gray-700">Our Mission</h3>
-            <p className="text-sm text-gray-600">
-              To provide high-quality web solutions with modern technologies.
-            </p>
-          </div>
-
-          <div className="bg-gray-100 p-3 rounded-lg">
-            <h3 className="font-semibold text-gray-700">What We Do</h3>
-            <p className="text-sm text-gray-600">
-              We design and develop websites using React, Tailwind, and modern
-              tools.
-            </p>
-          </div>
-
-          <div className="bg-gray-100 p-3 rounded-lg">
-            <h3 className="font-semibold text-gray-700">Our Vision</h3>
-            <p className="text-sm text-gray-600">
-              To become a leading platform for innovative and scalable web apps.
-            </p>
-          </div>
+        <div className="bg-gray-100 p-3 rounded-lg">
+          <h3 className="font-semibold text-gray-700">Our Vision</h3>
+          <p className="text-sm text-gray-600">
+            To become a leading platform for innovative and scalable web apps.
+          </p>
         </div>
       </div>
     </div>

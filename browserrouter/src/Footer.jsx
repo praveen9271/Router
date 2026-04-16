@@ -6,12 +6,7 @@ function Footer() {
         © {new Date().getFullYear()} MySite. All rights reserved.
       </div>
 
-      <div className="flex justify-center gap-6 mt-2 text-sm">
-        <a href="#" className="hover:text-yellow-400">Privacy</a>
-        <a href="#" className="hover:text-yellow-400">Terms</a>
-        <a href="#" className="hover:text-yellow-400">Support</a>
-      </div>
-
+      
     </footer>
   );
 }
