@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router";
 
 function Home() {
   return (
@@ -26,12 +26,6 @@ function Home() {
           View Users
         </NavLink>
 
-        {/* <NavLink
-          to="/"
-          className="inline-block bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600"
-        >
-          Get Started
-        </NavLink> */}
       </div>
     </div>
   );

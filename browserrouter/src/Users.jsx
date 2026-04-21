@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import { usersData } from "./Users";
+import { usersData } from "./usersData";
 
 function Users() {
   return (
