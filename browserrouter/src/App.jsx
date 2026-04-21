@@ -16,7 +16,6 @@ function App() {
           <Route path="contact-us" element={<ContactUs />} />
           <Route path="users" element={<Users />} />
           <Route path="users/:id" element={<User />} />
-          {/* <Route path="*" element={<h2>Page Not Found</h2>} /> */}
           
         </Route>
       </Routes>
